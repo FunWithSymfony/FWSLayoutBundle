@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+    <div class="layout layout-fws">
+
+        <header>
+            <p>This is the FWSLayoutBundle default layout. View the <a href="#">docs</a> to learn how to configure
+                your custom layout.</p>
+        </header>
+
+        <div class="content">
+            {% block body %}
+            {% endblock %}
+        </div>
+
+    </div>
+
+
+    <style>
+        .layout-fws header {
+            background: #e4e4aa;
+            color: #333;
+            padding: 10px 20px;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+        .layout-fws header p {
+            margin: 0;
+        }
+        .layout-fws .content {
+            padding: 20px 40px;
+        }
+    </style>
+
+    {% block javascripts %}{% endblock %}
+</body>
+</html>

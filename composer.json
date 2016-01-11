@@ -1,0 +1,32 @@
+{
+    "name": "funwithsymfony/layout-bundle",
+    "description": "Symfony FWSLayoutBundle",
+    "type": "symfony-bundle",
+    "keywords": ["Layout management"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Howell",
+            "email": "anthonyhowell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "symfony/twig-bundle": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "symfony/console": "~2.3|~3.0",
+        "symfony/phpunit-bridge": "~2.7|~3.0",
+        "symfony/validator": "~2.3|~3.0",
+        "symfony/yaml": "~2.3|~3.0"
+    },
+    "autoload": {
+        "psr-4": { "FWS\\LayoutBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
