@@ -57,13 +57,18 @@ By default, there is a default layout provided at ``FWS/Layout-Bundle/Resources/
     
     fws_layout:
         templates:
+            twig:
 	        default: AppBundle:Layout:layout-default.html
 	        ajax: AppBundle:Layout:layout-ajax.html.twig
+	        
+If you do not wish to use an ajax template, simply omit the ajax template property.
 
 Step 4: Configure your child page template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: bash
+.. code-block:: html
+
+    <!-- app/Resources/views/blog/post.html.twig -->
 
     {% extends parent_template() %}
 
@@ -71,7 +76,7 @@ Step 4: Configure your child page template
 	    My custom page content
     {% block content %}
 
-Note: the `content` block here is an example. You should use the block name you define within **your** layout.
+Note: the `content` block here is an example. You should use the block names you define within **your** layout.
 
 
 TODO
