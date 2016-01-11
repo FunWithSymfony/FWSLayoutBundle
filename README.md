@@ -20,7 +20,7 @@ Documentation
 The source of the documentation is stored in the `Resources/doc/` folder
 in this bundle:
 
-[Read the Documentation for master](https://github.com/FunWithSymfony/FWSLayoutBundle)
+[Read the Documentation for master](https://github.com/FunWithSymfony/FWSLayoutBundle/blob/develop/Resources/doc/index.rst)
 
 Installation
 ------------
