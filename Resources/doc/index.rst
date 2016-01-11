@@ -21,8 +21,8 @@ Installation is a quick (I promise!) 7 step process:
 
 1. Download FWSLayoutBundle using composer
 2. Enable the Bundle
-3. Create your custom layout
-4. Create a child page template
+3. Configure your custom layout
+4. Configure a child page template
 
 Step 1: Download FWSLayoutBundle using composer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,3 +52,26 @@ Enable the bundle in the kernel::
         );
     }
 
+Step 3: Configure your layout
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+By default, there is a default layout provided at ``FWS/Layout-Bundle/Resources/views/layout-default.html.twig`` This default layout will be used if you do not configure your own. However it is highly recommended that you configure your own layout.
+
+.. code-block:: yaml
+
+    # app/config/config.yml
+    fws_layout:
+        templates:
+	        default: AppBundle:Layout:layout-default.html
+	        ajax: AppBundle:Layout:layout-ajax.html.twig
+
+Step 4: Configure your child page template
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: html
+
+    {% extends parent_template() %}
+
+    {% block content %}
+	    My custom page content
+    {% block content %}
