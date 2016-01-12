@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="fws_layout.twig.extension.layout.class">FWS\LayoutBundle\Twig\LayoutExtension</parameter>
+        <parameter key="fws_layout.twig.extension.layout.class">FWS\Bundle\LayoutBundle\Twig\LayoutExtension</parameter>
     </parameters>
 
     <services>

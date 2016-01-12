@@ -1,7 +1,10 @@
 <?php
 
-use FWS\LayoutBundle\DependencyInjection\FWSLayoutExtension;
+namespace Fws\Bundle\LayoutBundle\Tests\DependencyInjection;
+
+use FWS\Bundle\LayoutBundle\DependencyInjection\FWSLayoutExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+
 
 class FWSLayoutExtensionTest extends \PHPUnit_Framework_TestCase
 

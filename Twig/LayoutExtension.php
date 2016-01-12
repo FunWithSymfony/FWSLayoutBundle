@@ -1,6 +1,6 @@
 <?php
 
-namespace FWS\LayoutBundle\Twig;
+namespace FWS\Bundle\LayoutBundle\Twig;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;

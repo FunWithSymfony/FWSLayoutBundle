@@ -1,6 +1,6 @@
 <?php
 
-namespace FWS\LayoutBundle\DependencyInjection;
+namespace FWS\Bundle\LayoutBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

@@ -22,7 +22,7 @@
         "symfony/yaml": "~2.3|~3.0"
     },
     "autoload": {
-        "psr-4": { "FWS\\LayoutBundle\\": "" }
+        "psr-4": { "FWS\\Bundle\\LayoutBundle\\": "" }
     },
     "extra": {
         "branch-alias": {

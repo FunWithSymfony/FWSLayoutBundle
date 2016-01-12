@@ -1,6 +1,6 @@
 <?php
 
-namespace FWS\LayoutBundle;
+namespace FWS\Bundle\LayoutBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
