@@ -41,7 +41,7 @@ Enable the bundle in the kernel::
     {
         $bundles = array(
             // ...
-            new FWS\LayoutBundle\FWSLayoutBundle(),
+            new FWS\Bundle\LayoutBundle\FWSLayoutBundle(),
             // ...
         );
     }

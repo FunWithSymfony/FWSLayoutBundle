@@ -1,6 +1,6 @@
 <?php
 
-namespace FWS\LayoutBundle\Twig;
+namespace FWS\Bundle\LayoutBundle\Twig;
 
 use InvalidArgumentException as BaseInvalidArgumentException;
 
