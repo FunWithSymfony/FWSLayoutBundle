@@ -25,7 +25,7 @@ Require the bundle with composer:
 
 .. code-block:: bash
 
-    $ composer require funwithsymfony/layout-bundle "1.0.0"
+    $ composer require funwithsymfony/layout-bundle "1.0.x"
 
 Composer will install the bundle to your project's ``vendor/funwithsymfony/layout-bundle`` directory.
 
