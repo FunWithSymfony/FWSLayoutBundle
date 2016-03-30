@@ -11,7 +11,7 @@ This version of the bundle requires Symfony 2.1+.
 Installation
 -------------
 
-Installation is a quick (I promise!) 7 step process:
+Installation is a quick (I promise!) 4 step process:
 
 1. Download FWSLayoutBundle using composer
 2. Enable the Bundle
